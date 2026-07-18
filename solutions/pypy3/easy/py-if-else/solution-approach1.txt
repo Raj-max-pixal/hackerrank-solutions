@@ -7,6 +7,11 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-07-18, 07:10 p.m.
+# Technique   chained-comparison-operators
+# Time        O(1)
+# Space       O(1)
+# Trick       chained-comparison-operators: see implementation below.
+# Hint        input() returns a string, requiring int() conversion for arithmetic.
 # ──────────────────────────────────────────────────
 
 n=int(input())
